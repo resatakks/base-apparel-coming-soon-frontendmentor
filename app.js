@@ -10,11 +10,11 @@ sendBtn.addEventListener("click", function () {
     errorMsg.style.display = "inline";
     errorIcon.style.display = "inline";
     errorMsg.style.color = "red";
-    errorMsg.textContent = "Please provide a valid email address";
+    errorMsg.textContent = "Lütfen geçerli bir mail adresi giriniz!";
   } else {
     errorMsg.style.display = "inline";
     errorMsg.style.color = "green";
     errorIcon.style.display = "none";
-    errorMsg.textContent = "Thank you for subscribing to our newsletter!";
+    errorMsg.textContent = "Bültenimize abone olduğunuz için teşekkür ederiz!";
   }
 });
